@@ -215,6 +215,9 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.red{ color: #FF6F50}
+.green{ color: #5BD048}
+
 .logo {
     height: 100px;
     width: auto;
@@ -674,3 +677,21 @@ footer p {
 }
 
 
+.IFrameList{
+    text-align: center;
+}
+
+.IFrameList li{
+    text-align: center;
+    width:560px;
+    margin-bottom: 20px;
+    height:340px;
+    display:inline-block;
+    margin: 20px;
+}
+
+.IFrameCont{
+    text-align: center;
+    width:560px;
+    height:315px;
+}
