@@ -111,17 +111,32 @@
     
     .logo { visibility: hidden; }
     
-    .hero-text-box h1 font{ color: antiquewhite }
-    .hero-text-box b{ 
-        visibility: None;
+    .hero-text-box h1 font{ color: white;
+        font-weight: 700;
     }
+    .hero-text-box h1 {
+        font-size: 40px;
+    }
+    .hero-text-box h1 b {
+        font-weight: 700;
+    }
+/* .red{ color: #FF6F50} #00FFB8
+.green{ color: #5BD048} */
     .red{
-        color: #F53516;
+        color:  #FCBD77;
     }
     .green{
-        color: #96CC55;
+        color: #00FFB8;
     }
     
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
     
 }
 
@@ -154,5 +169,11 @@
     .IFrameCont p a{
         border-left: 20px;
     }
+    
+    
+    .hero-text-box h1 {
+        font-size: 20px;
+    }
+
 }
 

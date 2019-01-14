@@ -675,7 +675,7 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
-
+/*----------------------------------------------------*/
 
 .IFrameList{
     text-align: center;
@@ -694,4 +694,9 @@ footer p {
     text-align: center;
     width:560px;
     height:315px;
+}
+
+
+.logo-black p {
+    font-size: 20px;
 }
