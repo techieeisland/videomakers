@@ -137,7 +137,10 @@ header {
     height: 100vh;
     background-attachment: fixed;
 }
-    
+     .btn-ghost {
+        visibility: hidden;
+    }
+
 }
 
 
@@ -175,5 +178,6 @@ header {
         font-size: 20px;
     }
 
+       
 }
 
