@@ -136,7 +136,7 @@ header {
     background-position: center;
     height: 100vh;
     width: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .section-testimonials {
@@ -145,7 +145,7 @@ header {
     background-size: cover;
     color: #fff;
     width:100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
     
 .btn-ghost {
