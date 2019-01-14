@@ -134,11 +134,21 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 750px;
     background-attachment: fixed;
 }
-     .btn-ghost {
-        visibility: hidden;
+
+.section-testimonials {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 700px;
+    background-attachment: fixed;
+}
+    
+.btn-ghost {
+    visibility: hidden;
     }
 
 }
@@ -152,8 +162,10 @@ header {
     
    
     .IFrameList{
-                  text-align-last: left;  
-        }
+        align-content: left;
+        align-items: left;
+        text-align: left; 
+}
     
 	.IFrameList li{
         
@@ -162,11 +174,17 @@ header {
         height:340px;
         display:inline-block;
         margin:20px;
+        align-content: left;
+        align-items: left;
+        text-align: left;
     }
 		
 	.IFrameCont{
         width:320px;
         height:340px;
+        align-content: left;
+        align-items: left;
+        text-align: left;
     }
     
     .IFrameCont p a{
