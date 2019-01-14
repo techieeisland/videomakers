@@ -204,96 +204,33 @@ header {
 
 @media only screen
 and (min-device-width : 375px)
-and (max-device-width : 667px) { /* STYLES GO HERE */}
+and (max-device-width : 767px) { 
+
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    background-attachment: fixed;
+}
+
+.section-testimonials {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 700px;
+    background-attachment: fixed;
+}
+    
+}
 
 /* iPhone 7 in landscape */
 @media only screen
 and (min-device-width : 375px)
-and (max-device-width : 667px)
+and (max-device-width : 767px)
 and (orientation : landscape) { 
-
-    body { font-size: 16px; }
-    section { padding: 30px 0; }
-    
-    .row,
-    .hero-text-box { padding: 0 4%; }
-    .col { 
-        width: 100%;
-        margin: 0 0 4% 0;
-    }
-    
-    
-    .main-nav { display: none; }
-    .mobile-nav-icon {display: inline-block;}
-    
-    .main-nav {
-        float: left;
-        margin-top: 30px;
-        margin-left: 25px;
-    }
-    
-    .main-nav li {
-        display: block;
-    }
-    
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border: 0;
-        padding: 10px 0;
-        font-size: 100%;
-    }
-    
-    .sticky .main-nav { margin-top: 10px; }
-
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited { padding: 10px 0; }
-    .sticky .mobile-nav-icon { margin-top: 10px; }
-    .sticky .mobile-nav-icon i { color: #555; }
-    
-    
-    
-    h1 { font-size: 180%; }
-    h2 { font-size: 150%; }
-    
-    .long-copy {
-        width: 100%;
-        margin-left: 0%;
-    }
-    
-    .app-screen { width: 40%; }
-    .steps-box:first-child { text-align: center; }
-    
-    .works-step div {
-        height: 40px;
-        width: 40px;
-        margin-right: 15px;
-        padding: 4px;
-        font-size: 120%;
-    }
-    
-    .works-step { margin-bottom: 20px; }
-    .works-step:last-of-type { margin-bottom: 20px; }
-    
-    .logo { visibility: hidden; }
-    
-    .hero-text-box h1 font{ color: white;
-        font-weight: 700;
-    }
-    .hero-text-box h1 {
-        font-size: 40px;
-    }
-    .hero-text-box h1 b {
-        font-weight: 700;
-    }
-/* .red{ color: #FF6F50} #00FFB8
-.green{ color: #5BD048} */
-    .red{
-        color:  #FCBD77;
-    }
-    .green{
-        color: #00FFB8;
-    }
     
 header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
@@ -313,56 +250,16 @@ header {
     background-attachment: fixed;
 }
     
-.btn-ghost {
-    visibility: hidden;
-    }
 
 }
 
 /* iPhone 7 in portrait */
 @media only screen
 and (min-device-width : 375px)
-and (max-device-width : 667px)
+and (max-device-width : 767px)
 and (orientation : portrait) { 
 
-    section { padding: 25px 0; }
-    .contact-form {width: 100%; }
-    
-   
-    .IFrameList{
-        align-content: left;
-        align-items: left;
-        text-align: left; 
-}
-    
-	.IFrameList li{
-        
-        width:560px;
-        margin-bottom: 10px;
-        height:340px;
-        display:inline-block;
-        margin:20px;
-        align-content: left;
-        align-items: left;
-        text-align: left;
-    }
-		
-	.IFrameCont{
-        width:320px;
-        height:340px;
-        align-content: left;
-        align-items: left;
-        text-align: left;
-    }
-    
-    .IFrameCont p a{
-        border-left: 20px;
-    }
-    
-    
-    .hero-text-box h1 {
-        font-size: 20px;
-    }
+ 
 
 header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
