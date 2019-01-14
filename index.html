@@ -13,6 +13,15 @@
         
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
         <title>Video Makers</title>
+        
+        <script>
+            $('audio,video').bind('play', function() {
+              activated = this;
+              $('audio,video').each(function() {
+                if(this != activated) this.pause();
+              });
+            });
+        </script>
     </head>
     <body>
         <header>
@@ -45,7 +54,7 @@
                 <h2>Unleash Your Brand’s Potential With Video,
                     Your Business needs engaging and effective videos to sell, market, train and explain</h2>
                 <p class="long-copy">
-                    Hello, we make videos for professional use like client demo, video resume, business advertisements, promoting your product, explainer videos and for personal occasions like birthday wishes, wedding & engagement invitaions. We know you're always busy. No time for creating a presentation video or aanimated video or explainer video for your usecase. So let us take care of that, we're really good at it, we promise!
+                    Hello, we make videos for professional use like client demo, video resume, business advertisements, promoting your product, explainer videos and for personal occasions like birthday wishes, wedding & engagement invitations. We know you're always busy. No time for creating a presentation video or animated video or explainer video for your usecase. So let us take care of that, we're really good at it, we promise!
                 </p>
             </div>
             
@@ -54,28 +63,28 @@
                     <i class="ion-ios-infinite-outline icon-big"></i>
                     <h3>Creating Video</h3>
                     <p>
-                        Key in producing an effective video is to understand the target audience and engage them with your thoughts.
+                        Key to producing an effective video is to understand the target audience and engage them with your thoughts.
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-stopwatch-outline icon-big"></i>
                     <h3>Within deadline</h3>
                     <p>
-                        You're video will be ready within the dealine which we commit with you !! Using that you can engage your audience and achieve your goals !
+                        Your video will be ready within the dealine which we commit to you !! Using that you can engage your audience and achieve your goals !
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-nutrition-outline icon-big"></i>
                     <h3>Everything</h3>
                     <p>
-                        We make videos for all occasions which you wish, which may not mentioned in our website. But based on your requirements we will make any kind of videos to create effective videos to sell, market, train, and explain.
+                        We make videos for all occasions which you wish, which may not be mentioned in our website. But based on your requirements we will make any kind of videos to create effective videos to sell, market, train, and explain.
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-cart-outline icon-big"></i>
                     <h3>Order anything</h3>
                     <p>
-                        We don't limit your creativity, which means you can order whatever you feel like. You can also choose choose the music, text, images for your video. It's up to you!!
+                        We don't limit your creativity, which means you can order whatever you feel like. You can also choose the music, text, images for your video. It's up to you!!
                     </p>
                 </div>
             </div>   
@@ -144,16 +153,13 @@
                     </div>
                     <div class="works-step clearfix">
                         <div>2</div>
-                        <p>Also you can give some images, text and music you want to add it into those videos.</p>
+                        <p>Also you can also give some images, text and music you want to add to those videos.</p>
                     </div>
                     <div class="works-step clearfix">
                         <div>3</div>
-                        <p>We will build the stunning video for you to sell, market, train, and explain!</p>
+                        <p>We will build stunning video for you to sell, market, train, and explain!</p>
                     </div>
-<!--
-                    <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store Button"></a>
-                    <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
--->
+
                 </div>
             </div>
         </section>
@@ -169,8 +175,11 @@
 			<ul class="IFrameList">
 			
 			<li>
-			<iframe class="IFrameCont" frameborder="0"  src="https://biteable.com/watch/embed/krithik-siva-data-engineer-profile-2120220" allowfullscreen="true" allow="autoplay"></iframe><p><a >Data Engineer profile</a></p></li>
-			
+			<iframe class="IFrameCont" frameborder="0"  src="https://biteable.com/watch/embed/krithik-siva-data-engineer-profile-2120220" allowfullscreen="true" allow="autoplay"></iframe><p><a >Data Engineer | Video Resume</a></p></li>
+                
+			<li>
+            <iframe class="IFrameCont" frameborder="0" src="https://biteable.com/watch/embed/vishnu-priya-sas-profile-2128181" allowfullscreen="true" allow="autoplay"></iframe><p><a>Vishnu Priya | SAS Profile</a></p></li>
+                
 			<li>
 			<iframe class="IFrameCont" frameborder="0"  src="https://biteable.com/watch/embed/new-year-2115664" allowfullscreen="true" allow="autoplay"></iframe><p><a>New year wishes</a></p></li>
 			
@@ -189,10 +198,12 @@
 			<li>
 			<iframe class="IFrameCont" frameborder="0"  src="https://biteable.com/watch/embed/engagement-2123199" allowfullscreen="true" allow="autoplay"></iframe><p><a>Engagement Invitation</a></p></li>
 			
+        <!--
 			<li>
 			<iframe class="IFrameCont" frameborder="0"  src="https://biteable.com/watch/embed/vyshali-sas-profile-2125854" allowfullscreen="true" allow="autoplay"></iframe><p><a>SAS Video resume</a></p></li>
-			
-			<li>
+		-->
+		
+            <li>
 			<iframe class="IFrameCont" frameborder="0"  src="https://biteable.com/watch/embed/abi-party-hall-2119894" allowfullscreen="true" allow="autoplay"></iframe><p><a>Abi Party Hall</a></p></li>
 			
 			<li>
