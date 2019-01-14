@@ -134,7 +134,8 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 100vh;
+    width: 1000%;
     background-attachment: fixed;
 }
 
@@ -143,7 +144,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
     background-size: cover;
     color: #fff;
-    height: 700px;
+    width:100%;
     background-attachment: fixed;
 }
     
@@ -199,83 +200,3 @@ header {
        
 }
 
-
-/* iPhone 7 in portrait & landscape */
-
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 767px) { 
-
-header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 750px;
-    background-attachment: fixed;
-}
-
-.section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-    background-size: cover;
-    color: #fff;
-    height: 700px;
-    background-attachment: fixed;
-}
-    
-}
-
-/* iPhone 7 in landscape */
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 767px)
-and (orientation : landscape) { 
-    
-header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 750px;
-    background-attachment: fixed;
-}
-
-.section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-    background-size: cover;
-    color: #fff;
-    height: 700px;
-    background-attachment: fixed;
-}
-    
-
-}
-
-/* iPhone 7 in portrait */
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 767px)
-and (orientation : portrait) { 
-
- 
-
-header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 750px;
-    background-attachment: fixed;
-}
-
-.section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-    background-size: cover;
-    color: #fff;
-    height: 700px;
-    background-attachment: fixed;
-}
-}
