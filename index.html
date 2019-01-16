@@ -14,14 +14,6 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
         <title>Video Makers</title>
         
-        <script>
-            $('audio,video').bind('play', function() {
-              activated = this;
-              $('audio,video').each(function() {
-                if(this != activated) this.pause();
-              });
-            });
-        </script>
     </head>
     <body>
         <header>
