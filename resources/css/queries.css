@@ -197,4 +197,27 @@ header {
         font-size: 20px;
     }
 }
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 560px) {
+{
+	.IFrameList li{
+        
+        width:560px;
+        margin-bottom: 10px;
+        height:242px;
+        display:inline-block;
+        margin:20px;
+        align-content: left;
+        align-items: left;
+        text-align: left;
+    }
+		
+	.IFrameCont{
+        width:320px;
+        height:242px;
+        align-content: left;
+        align-items: left;
+        text-align: left;
+    }
+}
 
