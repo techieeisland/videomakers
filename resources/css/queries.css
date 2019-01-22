@@ -214,7 +214,7 @@ header {
 		
 	.IFrameCont{
         width:320px;
-        height:242px;
+        height:inherit;
         align-content: left;
         align-items: left;
         text-align: left;
