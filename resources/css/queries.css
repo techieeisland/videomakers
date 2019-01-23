@@ -202,9 +202,9 @@ header {
 {
 	.IFrameList li{
         
-        width:320px;
+        width:100%;
         margin-bottom: 10px;
-        height:242px;
+        max-height:242px;
         display:inline-block;
         margin:20px;
         align-content: left;
@@ -213,8 +213,8 @@ header {
     }
 		
 	.IFrameCont{
-        width:320px;
-        height:242px;
+        width:100%;
+        max-height:242px;
         align-content: left;
         align-items: left;
         text-align: left;
